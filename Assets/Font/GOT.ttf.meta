@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 741f379f37f1f0e4b9c0bca34c7cdaaa
+timeCreated: 1502827111
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Game of Thrones KG
+  fontNames:
+  - Game of Thrones KG
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
