@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     private static GameManager gameManager = null;
 
     [SerializeField]
+    private InfoDB.Scenes debugLoadingScene;
+
+    [SerializeField]
     private GameObject currentLevelPlane;
 
     [SerializeField]
@@ -65,7 +68,7 @@ public class GameManager : MonoBehaviour
 
         AbstractSceneManager.ASMSetHouseEvent += SetHouse;
 
-        gameManager.scene = InfoDB.Scenes.MainMenu;
+        gameManager.scene = debugLoadingScene;
 
         Fader.InitializeFader(); 
 
