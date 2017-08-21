@@ -64,6 +64,15 @@ public class LevelManager : AbstractSceneManager
 
         currentProperty = pAction;
 
+        switch (pAction)
+        {
+            case InfoDB.PropertyAction.BuildBarrack:
+                {
+                    BuildingsOnScene bos = selectables[0].gameObject.AddComponent<BuildingsOnScene>();
+                    bos.Unit = InfoDB.Unit.Barraks;
+                    break;
+                }
+        }
         Debug.Log(currentProperty);
     }
 
